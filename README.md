@@ -15,3 +15,19 @@ Step 4
 {
   "question":"What was the company's total revenue?"
 }
+
+
+project tree structure - 
+
+
+AI-Financial-Assistant/
+│
+├── app.py                 # FastAPI application
+├── chatbot.py             # AI logic
+├── document_loader.py     # Reads PDF files
+├── embeddings.py          # Creates embeddings
+├── vector_store.py        # ChromaDB operations
+├── requirements.txt
+├── data/
+│   └── annual_report.pdf
+└── README.md
